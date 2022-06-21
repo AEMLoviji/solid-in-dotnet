@@ -19,7 +19,7 @@ MyOldGoodFriend myOldGoodFriend = new();
 myOldGoodFriend.Call(caller);
 
 // DIP example
-ITransport transport = new Transport();
+ITransport transport = new Car();
 Product product = new(name: "iphone 12 pro", transport);
 product.MoveTo("LA");
 

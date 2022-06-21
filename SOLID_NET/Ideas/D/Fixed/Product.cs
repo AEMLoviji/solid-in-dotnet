@@ -23,7 +23,15 @@
         void Move(string address);
     }
 
-    internal class Transport : ITransport
+    internal class Car : ITransport
+    {
+        public void Move(string address)
+        {
+            Console.WriteLine($"Movig product to {address}...");
+        }
+    }
+
+    internal class Ship : ITransport
     {
         public void Move(string address)
         {
