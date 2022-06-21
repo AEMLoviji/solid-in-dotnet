@@ -19,8 +19,8 @@ The SOLID ideas are
 - [x] The __S__ ingle-responsibility principle: _"There should never be more than one reason for a class to change." In other words, every class should have only one responsibility._
   - [Code. Violated](./SOLID_NET/Ideas/S/Violated/Store.cs)
   - [Code. Fixed](./SOLID_NET/Ideas/S/Fixed/Store.cs)
-- [] The __O__ pen-closed principle: _"Software entities ... should be open for extension, but closed for modification."_
-- [] The __L__ iskov substitution principle: _"Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."_
+- [ ] The __O__ pen-closed principle: _"Software entities ... should be open for extension, but closed for modification."_
+- [ ] The __L__ iskov substitution principle: _"Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."_
 - [x] The __I__ nterface segregation principle: _"Many client-specific interfaces are better than one general-purpose interface."_
   - [Code. Violated](./SOLID_NET/Ideas/I/Violated/MyOldGoodFriend.cs)
   - [Code. Fixed](./SOLID_NET/Ideas/I/Fixed/MyOldGoodFriend.cs)
@@ -30,9 +30,9 @@ The SOLID ideas are
 
 The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
-## Single responsibility principle (SRP)
+## Techniques for detecting violations of the principle
 
-Techniques for detecting violations of this principle:
+### Single responsibility principle (SRP)
 
 - Method/Property/Class contains a lot of functionality which belong to different layer. For instance
   - Read data from console
@@ -41,9 +41,7 @@ Techniques for detecting violations of this principle:
   - write to the log directly wihtout refering any other module/class
   - send metrics directly wihtout refering any other module/class  
 
-## Interface segregation principle (ISP)
-
-Techniques for detecting violations of this principle:
+### Interface segregation principle (ISP)
 
 - Too big interfaces
 - Weak cohesion between components (i.e. Methods, Properties) in interface (smell violation of SRP)
