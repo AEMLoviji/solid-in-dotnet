@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="Ideas\D.cs" />
+    <None Include="Ideas\I\Fixed\MyOldGoodFriend.cs" />
+    <None Include="Ideas\I\Violated\MyOldGoodFriend.cs" />
+    <None Include="Ideas\L.cs" />
+    <None Include="Ideas\O.cs" />
+    <None Include="Ideas\S\Product.cs" />
+    <None Include="Ideas\S\Fixed\Store.cs" />
+    <None Include="Ideas\S\Violated\Store.cs" />
+  </ItemGroup>
+
+</Project>
